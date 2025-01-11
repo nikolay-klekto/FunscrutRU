@@ -38,6 +38,10 @@ const buttonVariants = cva(
                     'button-border-desktop flex items-center gap-[20px] rounded-[50px] border-2 text-5xl font-semibold hover:border-0 hover:bg-gradient-desktop 2xl:text-3xl 3xl:text-4xl',
                 circle: 'rounded-[50px] bg-gradient-desktop text-white hover:bg-gradient-desktop-hover',
                 circleBlue: 'rounded-[50%] bg-[#382D90]',
+                circleDarkBlue: 'rounded-[50%] bg-[#272744]',
+                select_day: 'bg-gradient-desktop rounded-[90px] text-white',
+                hover_button_date:
+                    'bg-[#1F203F] hover:bg-[#28295B] rounded-[90px] border border-[#878797] hover:button-border-desktop-date text-[18px] 4xl:text-2xl 3xl:text-xl 2xl:text-lg',
             },
             size: {
                 default: 'h-10 px-4 py-2',
@@ -72,6 +76,9 @@ const buttonVariants = cva(
                 contacts_btn_mobi: 'h-[39.5px] w-[159px] flex-shrink-0 sm:w-[152px] sm_s:w-[156px]',
                 contacts_btn_send_mobi: 'h-[35px] w-[145px] flex-shrink-0 sm:w-[136px] sm_s:w-[140px]',
 
+                select_btn_desktop_events: '3xl:px-[20px] h-[64px] px-[40px] py-[20px] 2xl:px-[20px]',
+                hover_button_date_desktop:
+                    '3xl:w-[270px] 3xl:px-[20px] h-[50px] w-[400px] px-[30px] py-[20px] 2xl:w-[240px] 2xl:px-[20px]',
             },
         },
         defaultVariants: {
